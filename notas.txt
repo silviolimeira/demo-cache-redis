@@ -1,0 +1,23 @@
+Imagem do Redis
+-------------------------------------------------------------
+Baixando a image do Redis no docker Windows
+$ docker pull redis
+
+Executando a imagem Redis no docker no Windows:
+$ docker run --name cachesl -p 6379:6379 -d redis
+
+
+
+--------------------------------------------------------------
+Instalando dependências no maven:
+mvn clean install
+
+Executando o projeto no maven:
+mvn spring-boot:run
+
+
+
+// Tutorial //
+Spring Boot Redis Cache
+https://www.digitalocean.com/community/tutorials/spring-boot-redis-cache#running-spring-boot-redis-cache-application
+
